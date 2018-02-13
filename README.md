@@ -1,8 +1,10 @@
 # Environment Radomization
 
-In the domain randomization directory is dr_script which uses function from bpy_fun to generate randomized scenes.
+This code uses Blender, an open source 3D graphics and animation software, to generate data for the training of a nerual network to recognize a UTSA Road Runner object in a scene. The premise is to use a technique called Domain Randomization train a neural net using synthetic data so that may perform in the real world without further alteration of the data or system. 
 
-Blender is a open source 3D graphics and animation software, downloadable at "https://www.blender.org/". 
+In the domain randomization directory there is a dr_script which uses functions from bpy_fun to generate randomized scenes.
+
+Blender is downloadable at "https://www.blender.org/". 
 
 Example positive testcase:
 
